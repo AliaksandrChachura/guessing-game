@@ -2,29 +2,24 @@ class GuessingGame {
     constructor(min, max) {
         this.min = min;
         this.max = max;
-        this.number = number;
+        let result;
     }
 
-    set setRange(newMin, newMax) {
-        this.min = newMin;
-        this.max = newMax;
+    setRange(min, max) {
+        this.min = min;
+        this.max = max;
     }
 
     guess() {
-        let result;
-        if 
-        else if (result === this.number) {
-            return result;
-        }
-
+            this.result = Math.round((this.min + this.max) / 2);
+            return this.result;
     }
-
-    lower() {
-
+    lower() {        
+        this.max = Math.round((this.min + this.max)/2);
     }
 
     greater() {
-
+        this.min = Math.round((this.min + this.max)/2);
     }
 }
 
