@@ -1,11 +1,21 @@
 class GuessingGame {
-    constructor() {}
+    constructor(min, max) {
+        this.min = min;
+        this.max = max;
+        this.number = number;
+    }
 
-    setRange(min, max) {
-
+    set setRange(newMin, newMax) {
+        this.min = newMin;
+        this.max = newMax;
     }
 
     guess() {
+        let result;
+        if 
+        else if (result === this.number) {
+            return result;
+        }
 
     }
 
